@@ -1,1 +1,7 @@
 C:\Users\Emi\Desktop\Test\test-repository\TestDemo\TestDemo\bin\Debug\TestDemo.exe.config
+C:\Users\Emi\Desktop\Test\test-repository\TestDemo\TestDemo\bin\Debug\TestDemo.XML
+C:\Users\Emi\Desktop\Test\test-repository\TestDemo\TestDemo\bin\Debug\TestDemo.exe
+C:\Users\Emi\Desktop\Test\test-repository\TestDemo\TestDemo\bin\Debug\TestDemo.pdb
+C:\Users\Emi\Desktop\Test\test-repository\TestDemo\TestDemo\obj\Debug\TestDemo.csprojResolveAssemblyReference.cache
+C:\Users\Emi\Desktop\Test\test-repository\TestDemo\TestDemo\obj\Debug\TestDemo.exe
+C:\Users\Emi\Desktop\Test\test-repository\TestDemo\TestDemo\obj\Debug\TestDemo.pdb

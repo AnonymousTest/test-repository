@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestDemo</name>
+    </assembly>
+    <members>
+        <member name="T:TelerikStringExtentions.StringExtensions">
+            <summary>
+            Contains extension methods defined for the <see cref="T:System.String"/> class.
+            </summary>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.ToMd5Hash(System.String)">
+            <summary>
+            Get MD5 hash of a string
+            </summary>
+            <param name="input">string to get MD5 hash</param>
+            <returns>128 bit hash of the string</returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.ToBoolean(System.String)">
+            <summary>
+            Method that check if array contain given string lower representation
+            </summary>
+            <param name="input">string value</param>
+            <returns>returns true if array has this value and false if not</returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.ToShort(System.String)">
+            <summary>
+            The method parse string to its 16-bit representation
+            </summary>
+            <param name="input">the string for parsing</param>
+            <returns>if the conversion succeeded,method returns 16-bit signed integer value equivalent of the number contained in input
+            or zero if the conversion failed.
+            </returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.ToInteger(System.String)">
+            <summary>
+            The method parse string to its 32-bit representation
+            </summary>
+            <param name="input">the string for parsing</param>
+            <returns>if the conversion succeeded,method returns 32-bit signed integer value equivalent of the number contained in input
+            or zero if the conversion failed.
+            </returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.ToLong(System.String)">
+            <summary>
+            The method parse string to its 64-bit representation
+            </summary>
+            <param name="input">the string for parsing</param>
+            <returns>if the conversion succeeded,method returns 64-bit signed integer value equivalent of the number contained in input
+            or zero if the conversion failed.
+            </returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.ToDateTime(System.String)">
+            <summary>
+            The method parse string to its date time representation
+            </summary>
+            <param name="input">the string for parsing</param>
+            <returns>if the conversion succeeded,method returns date time value equivalent to the date and time contained in input
+            or MinValue if the conversion failed.
+            </returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.CapitalizeFirstLetter(System.String)">
+            <summary>
+            The method capitalize the first letter of given string
+            </summary>
+            <param name="input">the string that we want to change first letter</param>
+            <returns>string with capital first letter</returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            The method extract string between two others strings
+            </summary>
+            <param name="input">the string from which is extracted string</param>
+            <param name="startString">left border of the substring</param>
+            <param name="endString">right border of substring</param>
+            <param name="startFrom">position from which is started the searching of the substring</param>
+            <returns>Returns string between two other strings. If the start string or end string do not 
+            exist in the input, or some of them is null or empty returns empty string.
+            </returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.ConvertCyrillicToLatinLetters(System.String)">
+            <summary>
+            The method that convert in given string its cyrillic letters to latin
+            </summary>
+            <param name="input">string that is converted</param>
+            <returns>string with latin letters</returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)">
+            <summary>
+            The method that convert in given string its latin letters to cyrillic
+            </summary>
+            <param name="input">string that is converted</param>
+            <returns>string with cyrillic letters</returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.ToValidUsername(System.String)">
+            <summary>
+            The method that convert in given string its cyrillic letters to latin and replace all non-alphanumeric characters with empty string,excluding the period "."
+            </summary>
+            <param name="input">string which will be converted</param>
+            <returns>converted string</returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.ToValidLatinFileName(System.String)">
+            <summary>
+            The method that convert in given string its cyrillic letters to latin,spaces are replaced with hyphens and all non-alphanumeric characters 
+            excluding the period "." and hyphen "-" , are removed
+            </summary>
+            <param name="input">string which will be converted</param>
+            <returns>converted string</returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.GetFirstCharacters(System.String,System.Int32)">
+            <summary>
+            The method extract substring whose start from first letter and whose length is the smaller of the string's length and charsCount
+            </summary>
+            <param name="input">the string from which is extracted the substring</param>
+            <param name="charsCount">number of characters of the substring</param>
+            <returns>extracted substring</returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.GetFileExtension(System.String)">
+            <summary>
+            The method check what is the file extension
+            </summary>
+            <param name="fileName">full name of the file</param>
+            <returns>string representation of the file</returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.ToContentType(System.String)">
+            <summary>
+            The method returns the content type for the specified file extension
+            </summary>
+            <param name="fileExtension">The file extension</param>
+            <returns>The content type as a string.</returns>
+        </member>
+        <member name="M:TelerikStringExtentions.StringExtensions.ToByteArray(System.String)">
+            <summary>
+            Converts a set of characters from the specified character array into a sequence of bytes.
+            </summary>
+            <param name="input">This instance.</param>
+            <returns>A byte array containing the specified set of characters.</returns>
+        </member>
+    </members>
+</doc>
