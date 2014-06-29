@@ -1,5 +1,6 @@
 ﻿namespace Log4NetDemo
 {
+    using log4net.Config;
     using System;
 
     class Log4NetDemo
@@ -10,6 +11,10 @@
             log.Info("For Your Information");
             log.Warn("Danger Will Robinson");
             log.Debug("Debug Message");
+
+            //To show msg in console
+            BasicConfigurator.Configure();
+            
             try
             {
                 throw new Exception("Deliberate Exception");
